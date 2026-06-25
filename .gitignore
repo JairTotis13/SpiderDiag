@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+backend/venv/
+venv/
+.venv/
+
+# Build
+frontend/dist/
+frontend/.vite/
+*.tsbuildinfo
+frontend/vite.config.d.ts
+
+# Environment
+.env
+!.env.example
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Docker
+mysql_data/
