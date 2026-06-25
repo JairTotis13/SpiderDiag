@@ -1,0 +1,15 @@
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+sqlalchemy[asyncio]>=2.0.35
+asyncpg>=0.30.0
+psycopg2-binary>=2.9.10
+alembic>=1.13.0
+python-jose[cryptography]>=3.3.0
+bcrypt>=4.0.0
+python-multipart>=0.0.12
+pydantic-settings>=2.5.0
+pydantic[email-validator]>=2.12.0
+obd>=0.7.0
+reportlab>=4.2.0
+websockets>=13.0
+httpx>=0.27.0
